@@ -20,30 +20,36 @@ const Hero = () => {
         </div>
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px]">
-            The Next <br className="sm:block hidden" />{' '}
-            <span className="text-gradient">Generation</span>
+            Dr. Web <br className="xs:block hidden" />{' '}
+            <span className="text-gradient">Tu solucion</span>
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
         </div>
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] w-full">
-          Payment Method
+          Digital
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards most
-          likely to fit your needs. We examine annual percentage rates, annual
-          fees.
+          En Dr. Web, creemos en la innovación y el progreso. Te
+          brindamos soluciones digitales personalizadas para
+          satisfacer las necesidades de tu negocio.
         </p>
       </div>
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 m-10 relative`}>
-        <img src={robot} alt="billing" className="w-full h-full relative z-[5]" />
+      <div
+        className={`flex-1 flex ${styles.flexCenter} md:my-0 m-10 relative`}
+      >
+        <img
+          src={robot}
+          alt="billing"
+          className="w-full h-full relative z-[5]"
+        />
         <div className="absolute z-0 w-2/5 h-[35%] top-0 pink__gradient "></div>
         <div className="absolute z-[1] w-4/5 h-4/5 rounded-full bottom-40 white__gradient "></div>
         <div className="absolute z-0 w-1/2 h-1/2 right-20 bottom-20 blue__gradient "></div>
       </div>
       <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted/>
+        <GetStarted />
       </div>
     </section>
   )

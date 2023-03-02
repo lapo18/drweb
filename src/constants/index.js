@@ -38,23 +38,30 @@ export const features = [
   {
     id: 'feature-1',
     icon: star,
-    title: 'Rewards',
+    title: 'Expertos en Diseno Web',
     content:
-      'The best credit cards offer some tantalizing combinations of promotions and prizes',
+      'Contamos con profesionales en diseno web altamente capacitados',
   },
   {
     id: 'feature-2',
     icon: shield,
-    title: '100% Secured',
+    title: 'Tecnología de última generación',
     content:
-      'We take proactive steps make sure your information and transactions are secure.',
+      'Utilizamos las últimas tecnologías y tendencias en diseño web',
   },
   {
     id: 'feature-3',
     icon: send,
-    title: 'Balance Transfer',
+    title: 'Enfoque en resultados',
     content:
-      'A balance transfer credit card can save you a lot of money in interest charges.',
+      'Nos enfocamos en generar resultados para tu negocio a través de tu página web',
+  },
+  {
+    id: 'feature-4',
+    icon: send,
+    title: 'Precios competitivos ',
+    content:
+      'Te ofrecemos una página web profesional con precios competitivos y transparentes sin comprometer tu presupuesto.',
   },
 ]
 
